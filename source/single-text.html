@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Single - Text{% endblock %}
+
+{% block content %}
+
+<div class="wrapper">
+	<article>
+		<div class="content">
+			<h1><span>#+TITLE: </span>Pueden hacerlo más grande si quieren</h1>
+			<p>&nbsp;</p>
+			<h2>First Header</h2>
+			<h3>Second Header</h3>
+			<h4>Third Header</h4>
+			<h5>Fourth Header</h5>
+		</div><!-- content -->
+	</article>
+
+	<div class="statusbar-active">
+		<span>U:@**-&nbsp;&nbsp;bbb.org</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>All (4, 17)</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>[(Org SP)]</span>
+	</div><!-- statusbar-active -->
+
+	<article>
+		<div class="content">
+			<h1><span>#+TITLE: </span>Learning by Analogy: A Critique</h1>
+			<h2>Experience as a dot in the cartesian plane of posible releate...</h2>
+			<h2>Science as a function that contains dots</h2>
+			<p>But then last year I read a rant written by Erik Naggum.</p>
+			<blockquote>
+				<p>people to assume that what they do not understand does not matter, that they have reached such a level of omniscience that they no longer need to observe and listen and learn... What they learned first is the standard for everything that comes later.</p>
+			</blockquote>
+			<p>That is a very frontal criticisim to learning by a analogy, and a founded one in that context imho. If I just try to map old conceptos to "new" concepts how can I possible learn anything, I’m just adapting it to old terms.</p>
+			<h2>Erik Naggum on CDR Brains...</h2>
+			<h2>Dijkstra on Analogies</h2>
+			<p>Recently a great Twitter account I follow, <a href="#">Symbol1cs Ideas</a> posted a link to a speech from Edward Dijkstra regarding the teaching of Computer Science. Dijkstra makes a point that there is even another reason as to avoid reasoning by analogy. We can concepts that make sense in the previous abstraction can leak into the current one. Dijkstra uses the idea of Bug. But for example, homeopathy dependend on the infinite divisibilty of matter, a notion modern science now rejects. But for example, why do we asume that space is infinitelly divisible just because we use numbers to measure it? (Funfact: Arquimides rejected the the notion of infinitesimal numbers). Do read the whole essay here <a class="link-reference" href="#">[1]</a></p>
+			<p>&nbsp;</p>
+			<p><a class="link-reference" href="#">[1]</a>: <a href="#">https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD10xx/EWD1036.html</a></p>
+		</div><!-- content -->
+	</article>
+
+	<div class="statusbar-inactive">
+		<span>U:@---&nbsp;&nbsp;OnInteligence.org</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>All (4, 0)</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>[(Org SP)]</span>
+	</div><!-- statusbar-active -->
+</div><!-- wrapper -->
+
+{%- endblock %}
